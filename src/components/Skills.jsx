@@ -4,7 +4,7 @@ const Skills = ({ darkMode }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <section className="my-12">
+    <section className={`my-12 border ${darkMode ? 'border-gray-600' : 'border-gray-300'} rounded p-4`}>
       <h2 className={`text-3xl font-semibold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>Skills</h2>
       <button
         onClick={() => setExpanded(!expanded)}
