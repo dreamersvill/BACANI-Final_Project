@@ -10,6 +10,7 @@ const Contact = ({ darkMode }) => {
       <p className="text-lg mt-2">
         Email: bacaniangelamae2004@gmail.com
       </p>
+      <button className={`mt-4 px-4 py-2 ${darkMode ? 'bg-blue-600' : 'bg-blue-500'} text-white rounded hover:bg-blue-700`}>Send Message</button>
     </section>
   );
 };
