@@ -15,7 +15,7 @@ const Experience = ({ darkMode }) => {
       {expanded && (
         <div className="mt-4">
           <p className="text-lg mt-4">
-            On the job Training University of Baguio Assistant Secretary
+            On the job Training, University of Baguio, Assistant Secretary
           </p>
         </div>
       )}
