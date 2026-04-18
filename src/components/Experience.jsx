@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import resumeImage from './Resume.jpg';
 
 const Experience = ({ darkMode }) => {
   const [expanded, setExpanded] = useState(false);
@@ -15,11 +14,6 @@ const Experience = ({ darkMode }) => {
       </button>
       {expanded && (
         <div className="mt-4">
-          <img
-            src={resumeImage}
-            alt="Resume"
-            className="rounded"
-          />
           <p className="text-lg mt-4">
             N/A
           </p>
