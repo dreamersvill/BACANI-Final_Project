@@ -5,7 +5,14 @@ const AboutMe = ({ darkMode }) => {
 
   return (
     <section className="my-12">
-      <h2 className={`text-3xl font-semibold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>About Me</h2>
+      <div className="flex items-center mb-4">
+        <img
+          src="https://via.placeholder.com/100"
+          alt="Profile Picture"
+          className="rounded-full mr-4"
+        />
+        <h2 className={`text-3xl font-semibold ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>About Me</h2>
+      </div>
       <button
         onClick={() => setExpanded(!expanded)}
         className={`mt-4 px-4 py-2 ${darkMode ? 'bg-blue-600' : 'bg-blue-500'} text-white rounded hover:bg-blue-700`}
