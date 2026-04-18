@@ -14,7 +14,7 @@ A simple portfolio built with React JS, Tailwind CSS, and JavaScript.
    npm run dev
    ```
 
-3. Open your browser to `http://localhost:5173/` to view the portfolio.
+3. Open your browser to `Bacani-Final_Project_Final Project: My Protfolio` to view the portfolio.
 
 ## Build for Production
 
