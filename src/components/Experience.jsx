@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import resumeImage from './Resume.jpg';
 
 const Experience = ({ darkMode }) => {
   const [expanded, setExpanded] = useState(false);
@@ -15,7 +16,7 @@ const Experience = ({ darkMode }) => {
       {expanded && (
         <div className="mt-4">
           <img
-            src="https://via.placeholder.com/300x200?text=Resume"
+            src={resumeImage}
             alt="Resume"
             className="rounded"
           />
