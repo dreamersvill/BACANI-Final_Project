@@ -7,7 +7,7 @@ const AboutMe = ({ darkMode }) => {
     <section className="my-12">
       <div className="flex items-center mb-4">
         <img
-          src="https://via.placeholder.com/100"
+          src="./611192838_846427674852763_7440091602922139576_n.jpg"
           alt="Profile Picture"
           className="rounded-full mr-4"
         />
