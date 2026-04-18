@@ -13,7 +13,7 @@ function App() {
   return (
     <div className={darkMode ? 'bg-purple-900 text-white font-sans' : 'bg-purple-100 text-gray-900 font-sans'}>
       <header className="text-center py-8 bg-purple-500 text-white relative">
-        <h1 className="text-4xl font-bold">My Portfolio</h1>
+        <h1 className="text-4xl font-bold">Bacani-Final_Project_Final Project: My Protfolio</h1>
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="absolute top-4 right-4 px-4 py-2 bg-purple-200 text-purple-700 rounded hover:bg-purple-300 active:bg-purple-400"
