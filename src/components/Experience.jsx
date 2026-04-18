@@ -13,9 +13,16 @@ const Experience = ({ darkMode }) => {
         {expanded ? 'Hide Details' : 'View Resume'}
       </button>
       {expanded && (
-        <p className="text-lg mt-4">
-          N/A
-        </p>
+        <div className="mt-4">
+          <img
+            src="https://via.placeholder.com/300x200?text=Resume"
+            alt="Resume"
+            className="rounded"
+          />
+          <p className="text-lg mt-4">
+            N/A
+          </p>
+        </div>
       )}
     </section>
   );
