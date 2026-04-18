@@ -11,12 +11,12 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? 'bg-gray-900 text-white font-sans' : 'bg-gray-50 text-gray-900 font-sans'}>
-      <header className="text-center py-8 bg-blue-500 text-white relative">
+    <div className={darkMode ? 'bg-purple-900 text-white font-sans' : 'bg-purple-100 text-gray-900 font-sans'}>
+      <header className="text-center py-8 bg-purple-500 text-white relative">
         <h1 className="text-4xl font-bold">My Portfolio</h1>
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="absolute top-4 right-4 px-4 py-2 bg-white text-blue-500 rounded hover:bg-gray-100"
+          className="absolute top-4 right-4 px-4 py-2 bg-purple-200 text-purple-700 rounded hover:bg-purple-300 active:bg-purple-400"
         >
           {darkMode ? 'Light Mode' : 'Dark Mode'}
         </button>
